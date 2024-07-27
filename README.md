@@ -25,7 +25,7 @@ To use this landing page template:
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone git@github.com:aswin6373/landing-page.git
     ```
 2. Open `index.html` in your preferred web browser to view the landing page.
 
