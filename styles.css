@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;  
+  margin: 0;
+  padding: 0;
+}
+
+.first-section {
+  background-color: #1F2937;
+  padding: 20px 180px 135px 180px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.profile {
+  display: flex;
+  gap: 60px;
+}
+
+.profile-text {
+  flex: 1;
+  max-width: 400px;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.details {
+  color: #E5E7EB;
+  margin-bottom: 10px;
+}
+
+.sign-button {
+  padding: 7px 24px;
+  color: #E5E7EB;
+  background-color: #3882F6;
+  font-weight: bolder;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.profile-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 225px;
+  background-color: #6d747d;
+}
+
+.profile-image > div {
+  color: #E5E7EB;
+}
+
+.second-section {
+  padding: 40px 180px 100px 180px;
+}
+
+.second-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  margin-bottom: 40px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 150px;
+}
+
+.project-image {
+  border: 4px solid #3882F6;
+  border-radius: 5px;
+  height: 150px;
+  width: 150px;
+  border-radius: 18px;
+  margin-bottom: 8px;
+}
+
+.project-description {
+  text-align: center;
+}
+
+.third-section {
+  padding: 100px 280px 80px 280px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+.fourth-section {
+  padding: 75px 180px;
+}
+
+.box-for-action {
+  background-color: #3882F6;
+  padding: 35px 120px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action {
+  font-weight: bold;
+  font-size: 19px;
+  color: #F9FAF8;
+}
+
+.sign-text {
+  color: #E5E7EB;
+  font-size: 14px;
+}
+
+.sign-up-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+  padding: 1px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 25px;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
